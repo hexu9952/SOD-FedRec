@@ -1,0 +1,62 @@
+{
+    "device" : "cuda",
+
+    "algorithm": "DCFed",
+
+    "dataset": "nyc",
+
+    "test_dataset": "nyc_test_data",
+
+    "non_iid_per": 0,
+
+    "fraction": 1,
+
+    "num_clients" :35,
+
+    "global_epochs" : 8,
+
+    "client_epochs" : 41,
+
+    "server_epochs": 101,
+
+    "eval_epochs": 101,
+
+    "client_batch_size": 8,
+
+    "server_batch_size" : 32,
+
+    "datalen_client": 700,
+
+    "datalen_server": 300,
+
+    "model_name": "SASREC1",
+
+    "seed": 80,
+
+    "maxlen": 400,
+
+    "inference_only": 0,
+
+    "num_neg": 100,
+
+    "lr" : 0.001,
+
+    "l2_emb": 0.0,
+
+    "num_test": 9,
+
+    "dropout_rate": 0.5,
+
+    "scaffold_server_learning_rate": 1.0,
+
+    "alpha" : 0.01,
+
+    "eta" : 1.0,
+
+    "rand_percent" : 80,
+
+    "layer_idx" : 2,
+
+    "FedHyper_fun" : "FedHyper-FULL"
+
+}

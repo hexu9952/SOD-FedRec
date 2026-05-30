@@ -1,0 +1,4 @@
+computation:
+server all time:20.333812, server avg time:2.541726all client all time:4338.498718, all client avg time:542.31234one client all time:123.956162, one client avg time:15.49452computation:
+server all time:10.105344, server avg time:1.263168all client all time:2941.08916, all client avg time:367.636145one client all time:84.028439, one client avg time:10.503555computation:
+server all time:19.730473, server avg time:2.466309all client all time:5279.899335, all client avg time:659.987417one client all time:150.852602, one client avg time:18.856575
